@@ -62,6 +62,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
             }
         });
 
+
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

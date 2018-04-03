@@ -134,7 +134,7 @@ public class TelaPrincipalActivity extends AppCompatActivity {
 
 
 
-      /*  imageHolder = (ImageView)findViewById(R.id.imageView7);
+       imageHolder = (ImageView)findViewById(R.id.imageView7);
         Button capturedImageButton = (Button)findViewById(R.id.btnFoto);
         capturedImageButton.setOnClickListener( new View.OnClickListener() {
             @Override
@@ -143,7 +143,7 @@ public class TelaPrincipalActivity extends AppCompatActivity {
                 startActivityForResult(photoCaptureIntent, requestCode);
             }
         });
-        */
+
 
 
 
@@ -184,8 +184,7 @@ public class TelaPrincipalActivity extends AppCompatActivity {
         });
 
 
-
-        //ImageView Im7 = findViewById(R.id.imageView7);
+        ImageView Im7 = findViewById(R.id.imageView7);
 
 
     }
